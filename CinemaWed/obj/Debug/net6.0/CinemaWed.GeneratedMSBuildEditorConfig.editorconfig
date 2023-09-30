@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CinemaWed
 build_property.RootNamespace = CinemaWed
-build_property.ProjectDir = D:\FPT_CanTho_All\FA23_FPT\PRN211\CinemaProject\CinemaWed\
+build_property.ProjectDir = D:\FPT_CanTho_All\FA23_FPT\PRN211\Project_PRN221\PRN211_Group3_SE1605\CinemaWed\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\FPT_CanTho_All\FA23_FPT\PRN211\CinemaProject\CinemaWed
+build_property.MSBuildProjectDirectory = D:\FPT_CanTho_All\FA23_FPT\PRN211\Project_PRN221\PRN211_Group3_SE1605\CinemaWed
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/FPT_CanTho_All/FA23_FPT/PRN211/CinemaProject/CinemaWed/Views/Home/Index.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN211/Project_PRN221/PRN211_Group3_SE1605/CinemaWed/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_CanTho_All/FA23_FPT/PRN211/CinemaProject/CinemaWed/Views/Shared/Error.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN211/Project_PRN221/PRN211_Group3_SE1605/CinemaWed/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_CanTho_All/FA23_FPT/PRN211/CinemaProject/CinemaWed/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN211/Project_PRN221/PRN211_Group3_SE1605/CinemaWed/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_CanTho_All/FA23_FPT/PRN211/CinemaProject/CinemaWed/Views/_ViewImports.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN211/Project_PRN221/PRN211_Group3_SE1605/CinemaWed/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_CanTho_All/FA23_FPT/PRN211/CinemaProject/CinemaWed/Views/_ViewStart.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN211/Project_PRN221/PRN211_Group3_SE1605/CinemaWed/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_CanTho_All/FA23_FPT/PRN211/CinemaProject/CinemaWed/Views/Shared/_Layout.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN211/Project_PRN221/PRN211_Group3_SE1605/CinemaWed/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-epq2nurcqq

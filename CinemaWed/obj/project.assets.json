@@ -2387,11 +2387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\CinemaProject\\CinemaWed\\CinemaWed.csproj",
+      "projectUniqueName": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
       "projectName": "CinemaWed",
-      "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\CinemaProject\\CinemaWed\\CinemaWed.csproj",
+      "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\CinemaProject\\CinemaWed\\obj\\",
+      "outputPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaWed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2408,11 +2408,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\CinemaProject\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\CinemaProject\\BusinessObject\\BusinessObject.csproj"
+            "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
             },
-            "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\CinemaProject\\CinemaLibrary\\DataAccess.csproj": {
-              "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\CinemaProject\\CinemaLibrary\\DataAccess.csproj"
+            "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {
+              "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj"
             }
           }
         }
