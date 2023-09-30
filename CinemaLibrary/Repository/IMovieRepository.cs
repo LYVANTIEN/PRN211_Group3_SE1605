@@ -13,7 +13,8 @@ namespace DataAccess.Repository
         Movie GetMovieById(int movieId);
 
         void Insert(Movie movie);
+        void Delete(Movie movie);
         void Update(Movie movie);
-        void Delete(int movieId);
+       
     }
 }
