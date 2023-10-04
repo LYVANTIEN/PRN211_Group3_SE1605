@@ -28,7 +28,7 @@ namespace DataAccess.DAO
 
         public IEnumerable<Movie> GetMovieList()
         {
-            var movies = new List<Movie>();
+            List<Movie> movies;
             try
             {
                 using var context = new CinemaDbContext();
@@ -103,11 +103,11 @@ namespace DataAccess.DAO
             }
         }
 
-        public void Remove(int movieId)
+        public void Remove(Movie movie)
         {
             try
             {
-                Movie movie = GetMovieByID(movieId);
+                Movie _movie = GetMovieByID(movie.MovieId);
                 if (movie != null)
                 {
                     using var context = new CinemaDbContext();

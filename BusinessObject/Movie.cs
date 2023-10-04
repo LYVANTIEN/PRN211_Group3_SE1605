@@ -20,12 +20,16 @@ namespace BusinessObject
         [Required(ErrorMessage ="Not null")]
         public string Description { get; set; }
 
+        [Required(ErrorMessage ="Not null")]
+        public string Genres { get; set; }
+
         [Range(0, double.MaxValue)]    
         public double Price { get; set; }
 
         [Required(ErrorMessage ="Not null")]
         public string Image { get; set; }
-
+        public int Rate { get; set; }
+        public bool Upcoming { get; set; }
         public ICollection<MovieShow> MovieShows { get; set; }      
 
 
