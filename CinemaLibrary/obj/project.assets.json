@@ -2298,19 +2298,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
+      "projectUniqueName": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\obj\\",
+      "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2324,8 +2324,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
+            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
             }
           }
         }
