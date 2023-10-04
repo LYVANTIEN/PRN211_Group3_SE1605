@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaWed", "CinemaWed\CinemaWed.csproj", "{A8F802AB-8AA4-4703-92AD-4E5390EC64E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaProjectAPI", "CinemaProjectAPI\CinemaProjectAPI.csproj", "{801CB211-22DE-471A-BC20-0E5B767A94B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaProjectAPI", "CinemaProjectAPI\CinemaProjectAPI.csproj", "{801CB211-22DE-471A-BC20-0E5B767A94B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
