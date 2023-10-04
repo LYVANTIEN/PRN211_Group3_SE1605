@@ -10935,11 +10935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
+      "projectUniqueName": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
       "projectName": "CinemaWed",
-      "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
+      "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaWed\\obj\\",
+      "outputPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaWed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10956,11 +10956,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
+            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
             },
-            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {
-              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj"
+            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {
+              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj"
             }
           }
         }

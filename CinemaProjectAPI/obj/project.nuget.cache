@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8o5wYrTMqgIV7HGxcFplYp/KHs4uVKGhqK2IN6ohl5a5+SksLx53U05UzWtu2+ilqBQN74rqupljN1AK0jbJjA==",
+  "dgSpecHash": "Ywikauv0F5xMB59D4kndoRFGT6S8bQtePOe3MAOPgkcrhiLSKiPwJjJa6S5jfqksYX87vn0rya5v2X+vK6IXgQ==",
   "success": true,
-  "projectFilePath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
+  "projectFilePath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.22\\microsoft.aspnetcore.authentication.jwtbearer.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
