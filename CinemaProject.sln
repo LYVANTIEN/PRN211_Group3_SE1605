@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaWed", "CinemaWed\CinemaWed.csproj", "{A8F802AB-8AA4-4703-92AD-4E5390EC64E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaProjectAPI", "CinemaProjectAPI\CinemaProjectAPI.csproj", "{801CB211-22DE-471A-BC20-0E5B767A94B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A8F802AB-8AA4-4703-92AD-4E5390EC64E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8F802AB-8AA4-4703-92AD-4E5390EC64E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8F802AB-8AA4-4703-92AD-4E5390EC64E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801CB211-22DE-471A-BC20-0E5B767A94B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801CB211-22DE-471A-BC20-0E5B767A94B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801CB211-22DE-471A-BC20-0E5B767A94B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801CB211-22DE-471A-BC20-0E5B767A94B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{1376D424-9F95-4580-8EC0-39947AA3B409} = {73873BE6-5BE6-483E-B2ED-873A3DC86B27}
 		{3FD5B9EA-37EC-4EC0-AF2A-37F1E8D67019} = {EC8C7057-96B6-4013-AEF8-F4FB8EE4896E}
 		{A8F802AB-8AA4-4703-92AD-4E5390EC64E4} = {5007AC15-497F-4158-B72E-4EE6271261F3}
+		{801CB211-22DE-471A-BC20-0E5B767A94B7} = {5007AC15-497F-4158-B72E-4EE6271261F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D95B35C-2EFF-4369-9677-342763171868}

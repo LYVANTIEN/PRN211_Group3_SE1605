@@ -2303,11 +2303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
+      "projectUniqueName": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
+      "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\obj\\",
+      "outputPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\CinemaLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2324,8 +2324,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
+            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
             }
           }
         }
