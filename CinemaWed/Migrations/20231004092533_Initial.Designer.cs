@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaWed.Migrations
 {
     [DbContext(typeof(CinemaDbContext))]
-    [Migration("20230930100732_Initial")]
+    [Migration("20231004092533_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,6 +32,9 @@ namespace CinemaWed.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AccountId"), 1L, 1);
 
+                    b.Property<bool>("Baned")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -41,8 +44,9 @@ namespace CinemaWed.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Phone")
-                        .HasColumnType("int");
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
                         .IsRequired()
@@ -92,6 +96,10 @@ namespace CinemaWed.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Genres")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -102,6 +110,12 @@ namespace CinemaWed.Migrations
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
+
+                    b.Property<int>("Rate")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Upcoming")
+                        .HasColumnType("bit");
 
                     b.HasKey("MovieId");
 
@@ -119,10 +133,11 @@ namespace CinemaWed.Migrations
                     b.Property<int>("MovieId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TheaterHallId")
-                        .HasColumnType("int");
+                    b.Property<string>("ShowTime")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TimeId")
+                    b.Property<int>("TheaterHallId")
                         .HasColumnType("int");
 
                     b.HasKey("MovieShowId");
@@ -130,8 +145,6 @@ namespace CinemaWed.Migrations
                     b.HasIndex("MovieId");
 
                     b.HasIndex("TheaterHallId");
-
-                    b.HasIndex("TimeId");
 
                     b.ToTable("MoviesShows");
                 });
@@ -179,22 +192,6 @@ namespace CinemaWed.Migrations
                     b.HasIndex("TheaterHallId");
 
                     b.ToTable("Seats");
-                });
-
-            modelBuilder.Entity("BusinessObject.ShowTime", b =>
-                {
-                    b.Property<int>("TimeId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TimeId"), 1L, 1);
-
-                    b.Property<TimeSpan>("Showtime")
-                        .HasColumnType("time");
-
-                    b.HasKey("TimeId");
-
-                    b.ToTable("showTimes");
                 });
 
             modelBuilder.Entity("BusinessObject.Theater", b =>
@@ -254,6 +251,9 @@ namespace CinemaWed.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TicketId"), 1L, 1);
 
+                    b.Property<int>("AccountId")
+                        .HasColumnType("int");
+
                     b.Property<int>("MovieShowId")
                         .HasColumnType("int");
 
@@ -268,6 +268,8 @@ namespace CinemaWed.Migrations
                         .HasColumnType("float");
 
                     b.HasKey("TicketId");
+
+                    b.HasIndex("AccountId");
 
                     b.HasIndex("MovieShowId");
 
@@ -299,15 +301,7 @@ namespace CinemaWed.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BusinessObject.ShowTime", "ShowTimes")
-                        .WithMany("MovieShows")
-                        .HasForeignKey("TimeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Movies");
-
-                    b.Navigation("ShowTimes");
 
                     b.Navigation("TheaterHalls");
                 });
@@ -347,13 +341,26 @@ namespace CinemaWed.Migrations
 
             modelBuilder.Entity("BusinessObject.Ticket", b =>
                 {
+                    b.HasOne("BusinessObject.Account", "Account")
+                        .WithMany("tickets")
+                        .HasForeignKey("AccountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("BusinessObject.MovieShow", "MovieShow")
                         .WithMany("Tickets")
                         .HasForeignKey("MovieShowId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Account");
+
                     b.Navigation("MovieShow");
+                });
+
+            modelBuilder.Entity("BusinessObject.Account", b =>
+                {
+                    b.Navigation("tickets");
                 });
 
             modelBuilder.Entity("BusinessObject.Movie", b =>
@@ -369,11 +376,6 @@ namespace CinemaWed.Migrations
             modelBuilder.Entity("BusinessObject.Seat", b =>
                 {
                     b.Navigation("Bookings");
-                });
-
-            modelBuilder.Entity("BusinessObject.ShowTime", b =>
-                {
-                    b.Navigation("MovieShows");
                 });
 
             modelBuilder.Entity("BusinessObject.Theater", b =>

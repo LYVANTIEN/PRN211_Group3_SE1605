@@ -14,11 +14,9 @@ namespace BusinessObject
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]   
         public int MovieShowId { get; set; }
 
-        [ForeignKey("TimeId")]
-        public int TimeId { get; set; }
-        
-        public ShowTime ShowTimes { get; set; }
-
+        [Required(ErrorMessage ="Not null")]
+        public string ShowTime { get; set; }
+      
         [ForeignKey("MovieId")]
         public int MovieId { get; set; }
         public Movie Movies { get; set; }

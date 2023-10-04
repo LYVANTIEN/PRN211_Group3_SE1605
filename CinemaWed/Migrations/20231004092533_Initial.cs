@@ -18,8 +18,9 @@ namespace CinemaWed.Migrations
                     Username = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Phone = table.Column<int>(type: "int", nullable: false),
-                    Role = table.Column<string>(type: "nvarchar(6)", maxLength: 6, nullable: false)
+                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Role = table.Column<string>(type: "nvarchar(6)", maxLength: 6, nullable: false),
+                    Baned = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -34,25 +35,15 @@ namespace CinemaWed.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     MovieName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Genres = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<double>(type: "float", nullable: false),
-                    Image = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Rate = table.Column<int>(type: "int", nullable: false),
+                    Upcoming = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Movies", x => x.MovieId);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "showTimes",
-                columns: table => new
-                {
-                    TimeId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Showtime = table.Column<TimeSpan>(type: "time", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_showTimes", x => x.TimeId);
                 });
 
             migrationBuilder.CreateTable(
@@ -117,7 +108,7 @@ namespace CinemaWed.Migrations
                 {
                     MovieShowId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    TimeId = table.Column<int>(type: "int", nullable: false),
+                    ShowTime = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MovieId = table.Column<int>(type: "int", nullable: false),
                     TheaterHallId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -129,12 +120,6 @@ namespace CinemaWed.Migrations
                         column: x => x.MovieId,
                         principalTable: "Movies",
                         principalColumn: "MovieId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_MoviesShows_showTimes_TimeId",
-                        column: x => x.TimeId,
-                        principalTable: "showTimes",
-                        principalColumn: "TimeId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_MoviesShows_theaterHalls_TheaterHallId",
@@ -174,11 +159,18 @@ namespace CinemaWed.Migrations
                     Payment_Method = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Total = table.Column<double>(type: "float", nullable: false),
                     MovieShowId = table.Column<int>(type: "int", nullable: false),
-                    SeatNumber = table.Column<int>(type: "int", nullable: false)
+                    SeatNumber = table.Column<int>(type: "int", nullable: false),
+                    AccountId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Ticket", x => x.TicketId);
+                    table.ForeignKey(
+                        name: "FK_Ticket_Accounts_AccountId",
+                        column: x => x.AccountId,
+                        principalTable: "Accounts",
+                        principalColumn: "AccountId",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Ticket_MoviesShows_MovieShowId",
                         column: x => x.MovieShowId,
@@ -223,11 +215,6 @@ namespace CinemaWed.Migrations
                 column: "TheaterHallId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_MoviesShows_TimeId",
-                table: "MoviesShows",
-                column: "TimeId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Revenue_statics_TheaterId",
                 table: "Revenue_statics",
                 column: "TheaterId");
@@ -243,6 +230,11 @@ namespace CinemaWed.Migrations
                 column: "TheaterId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Ticket_AccountId",
+                table: "Ticket",
+                column: "AccountId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Ticket_MovieShowId",
                 table: "Ticket",
                 column: "MovieShowId");
@@ -250,9 +242,6 @@ namespace CinemaWed.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Accounts");
-
             migrationBuilder.DropTable(
                 name: "Bookings");
 
@@ -266,13 +255,13 @@ namespace CinemaWed.Migrations
                 name: "Seats");
 
             migrationBuilder.DropTable(
+                name: "Accounts");
+
+            migrationBuilder.DropTable(
                 name: "MoviesShows");
 
             migrationBuilder.DropTable(
                 name: "Movies");
-
-            migrationBuilder.DropTable(
-                name: "showTimes");
 
             migrationBuilder.DropTable(
                 name: "theaterHalls");

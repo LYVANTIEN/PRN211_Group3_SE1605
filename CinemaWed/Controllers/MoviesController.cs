@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using DataAccess.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Metrics;
@@ -6,7 +7,7 @@ using System.Diagnostics.Metrics;
 namespace CinemaWed.Controllers
 {
     public class MoviesController : Controller
-    {
+    {  
         private readonly CinemaDbContext _cinemaDbContext;
         public MoviesController(CinemaDbContext cinemaDbContext)
         {

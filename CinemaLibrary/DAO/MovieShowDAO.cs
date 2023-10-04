@@ -33,7 +33,7 @@ namespace DataAccess.DAO
             try
             {
                 using var context = new CinemaDbContext();
-                movieShows = context.MoviesShows.Include(m => m.Movies).Include(m => m.TheaterHalls).Include(m => m.ShowTimes).ToList();
+                movieShows = context.MoviesShows.Include(m => m.Movies).Include(m => m.TheaterHalls).ToList();
             }
             catch (Exception e)
             {
@@ -49,7 +49,7 @@ namespace DataAccess.DAO
             try
             {
                 using var context = new CinemaDbContext();
-                movieShow = context.MoviesShows.Include(m => m.Movies).Include(m => m.TheaterHalls).Include(m => m.ShowTimes).SingleOrDefault(c => c.MovieShowId == movieShowId);
+                movieShow = context.MoviesShows.Include(m => m.Movies).Include(m => m.TheaterHalls).SingleOrDefault(c => c.MovieShowId == movieShowId);
             }
             catch (Exception ex)
             {

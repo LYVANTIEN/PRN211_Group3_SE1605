@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FA23\\PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {}
+    "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\FA23\\PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+    "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FA23\\PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\FA23\\PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\FA23\\PRN221\\PRN211_Group3_SE1605\\BusinessObject\\obj\\",
+        "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
