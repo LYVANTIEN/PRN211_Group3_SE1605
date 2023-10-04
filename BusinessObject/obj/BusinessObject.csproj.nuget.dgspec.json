@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {}
+    "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\obj\\",
+        "outputPath": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

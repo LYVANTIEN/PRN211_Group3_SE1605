@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hAHGXUluWeOGAyn8udKzaDH+XUTi4xukOGZ28XFjJEi3Zd6jvWUESh67sp7Wce9xQ/Uf7Og2Y/dzvgqqYGce5A==",
+  "dgSpecHash": "7KnNPU/OTc8JAf51u4Kcycjtu8BJpV4TM46924uufqPenx/dwM/V1wadaxoS2M3BrX1t9nOi/4OIIGvM9b3BJw==",
   "success": true,
-  "projectFilePath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
+  "projectFilePath": "D:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
