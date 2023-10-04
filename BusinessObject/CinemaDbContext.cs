@@ -25,7 +25,6 @@ namespace BusinessObject
         public DbSet<MovieShow> MoviesShows { get; set; }
         public DbSet<Revenue_statics> Revenue_statics { get; set; }
         public DbSet<Seat> Seats { get; set; }
-        public DbSet<ShowTime> showTimes { get; set; }
         public DbSet<Theater> Theater { get; set; }
         public DbSet<TheaterHall> theaterHalls { get; set; }
         public DbSet<Ticket> Ticket { get; set; }
@@ -69,20 +68,17 @@ namespace BusinessObject
                 .WithMany(ms =>ms.MovieShows)
                 .HasForeignKey(m => m.MovieId);
 
-            // mối quan hệ giữa MovieShow và ShowTime 
-            modelBuilder.Entity<MovieShow>()
-                .HasOne(st => st.ShowTimes)
-                .WithMany(ms => ms.MovieShows)
-                .HasForeignKey(st => st.TimeId);
+            // mối quan hệ giữa Ticket và Account 
+            modelBuilder.Entity<Ticket>()
+                .HasOne(a => a.Account)
+                .WithMany(t => t.tickets)
+                .HasForeignKey(a => a.AccountId);
 
             // mối quan hệ giữa Ticket và MovieShow
             modelBuilder.Entity<Ticket>()
                 .HasOne(ms => ms.MovieShow)
                 .WithMany(t => t.Tickets)
                 .HasForeignKey(ms => ms.MovieShowId);
-
-            // account
-            modelBuilder.Entity<Account>();
         }
     }
 }

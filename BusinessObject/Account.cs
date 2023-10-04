@@ -31,13 +31,14 @@ namespace BusinessObject
         [Required(ErrorMessage ="Not null")]
         [DataType (DataType.PhoneNumber)]
         [Phone]
-        public int Phone { get; set; }
+        public string Phone { get; set; }
 
 
         [StringLength(6)]
         public string Role { get ; set; }
 
-   
+        public bool Baned { get; set; }
+        public ICollection<Ticket> tickets { get; set; }        
 
     }
 }

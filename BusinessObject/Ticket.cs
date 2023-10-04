@@ -27,5 +27,9 @@ namespace BusinessObject
         [Range (1,5)] 
         [Required(ErrorMessage ="Not null")]
         public int SeatNumber { get; set; }
+
+        [ForeignKey("AccountId")]
+        public int AccountId { get; set; }
+        public Account Account { get; set; }        
     }
 }
