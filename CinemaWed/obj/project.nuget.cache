@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tOUJTAB/5cD1hepraKjQFd5qGAWdTMlCGKAu3OKBu/0gSY27l4w+/ln5WvCJOINzlSGZAAh6ceEtKof3dQ047w==",
+  "dgSpecHash": "xAwvb5+Z3lTCpeWdIiPRZCMGcyE1JS1zwtTD078JUzRgvUpIAE3qXt+SQbi1b7yBQEJfEwwSTmCFoDSCwSyscw==",
   "success": true,
-  "projectFilePath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
+  "projectFilePath": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
