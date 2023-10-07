@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qvBE1MWPpFnEmewsNKBWICF9ByfOssfDo9xf8PEFSIHPa0vjINC+VuD8VSt3WMn7jzh/Uz+2z+hGFhUYRmY+HQ==",
+  "dgSpecHash": "JMQxSqqiyCz3YhV9cWyUCC4zUXXflPdoga4cP7Ebt6VyS35YmV4hDt/mz2kS0+3gU/lp+IExi/AIc8ps8YtJ2g==",
   "success": true,
-  "projectFilePath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
+  "projectFilePath": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.22\\microsoft.aspnetcore.authentication.jwtbearer.6.0.22.nupkg.sha512",
