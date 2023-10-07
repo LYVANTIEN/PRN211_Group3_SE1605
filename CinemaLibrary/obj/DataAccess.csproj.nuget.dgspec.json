@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {}
+    "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+    "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\obj\\",
+        "outputPath": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,14 +89,14 @@
         }
       }
     },
-    "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {
+    "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
+        "projectUniqueName": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
+        "projectPath": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\obj\\",
+        "outputPath": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
+              "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "d:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
