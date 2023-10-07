@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace BusinessObject
 {
     public class Movie
-    {
+    {//new from tiendev
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]   
         public int MovieId { get; set; }
