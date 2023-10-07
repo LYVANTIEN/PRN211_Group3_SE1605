@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PWeSmt9enm/iMDhphi6oO1lFyrhllp7DrQI/dBBEqxFOVMD72c9p8IaysKPMc/Y+rCQsrN1zNs3IvO8kNFegjg==",
+  "dgSpecHash": "iXzB9u+36g9NXYw8Au5qtzeftdOgY34Zui1OtNkAhvrNZXHyanhGweD89uqhL8ijmaJfS5RdbOcT+DBK4LqaIg==",
   "success": true,
-  "projectFilePath": "D:\\FA23\\PRN221\\Project\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
+  "projectFilePath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaWed\\CinemaWed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
