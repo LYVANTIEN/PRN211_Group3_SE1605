@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BusinessObject
-{
+{//aaaaa
     public class CinemaDbContext : DbContext
     {
         public CinemaDbContext()
