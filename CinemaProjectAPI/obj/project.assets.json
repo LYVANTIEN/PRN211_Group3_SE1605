@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Humanizer.Core/2.8.26": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.22": {
         "type": "package",
         "dependencies": {
@@ -131,6 +144,26 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Design/6.0.22": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.22"
+        },
+        "compile": {
+          "lib/net6.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/6.0.22": {
@@ -1087,6 +1120,22 @@
     }
   },
   "libraries": {
+    "Humanizer.Core/2.8.26": {
+      "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "type": "package",
+      "path": "humanizer.core/2.8.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.8.26.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml",
+        "logo.png"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.22": {
       "sha512": "+iuPmRkxfJ2vHoXifWqPJK8jppS8+iH3m1B8VMdgVWiC2U4q3JPBXx/kb7348HfClMPG+OcHpTUtmJkfUByvgg==",
       "type": "package",
@@ -1298,6 +1347,21 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.6.0.22.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Design/6.0.22": {
+      "sha512": "es9TKd0cpM263Ou0QMEETN7MDzD7kXDkThiiXl1+c/69v97AZlzeLoM5tDdC0RC4L74ZWyk3+WMnoDPL93DDyQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/6.0.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.6.0.22.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.22": {
@@ -3053,25 +3117,26 @@
       "BusinessObject >= 1.0.0",
       "DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.22",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.22",
       "Microsoft.IdentityModel.Tokens >= 6.33.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.IdentityModel.Tokens.Jwt >= 6.33.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
+      "projectUniqueName": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
       "projectName": "CinemaProjectAPI",
-      "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaProjectAPI\\obj\\",
+      "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\PRN211_Group3_SE1605\\CinemaProjectAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3085,11 +3150,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
+            "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj"
             },
-            "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {
-              "projectPath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj"
+            "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj": {
+              "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN211\\Project_PRN221\\PRN211_Group3_SE1605\\PRN211_Group3_SE1605\\CinemaLibrary\\DataAccess.csproj"
             }
           }
         }
@@ -3105,6 +3170,12 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[6.0.22, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.22, )"
           },

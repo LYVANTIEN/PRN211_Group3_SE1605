@@ -21,7 +21,7 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddDbContext<CinemaDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Test"), b => b.MigrationsAssembly("APIAdmin"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Test"), b => b.MigrationsAssembly("CinemaProjectAPI"));
 });
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(x =>
 {
