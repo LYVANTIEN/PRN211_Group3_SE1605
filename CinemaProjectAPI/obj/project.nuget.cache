@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ywikauv0F5xMB59D4kndoRFGT6S8bQtePOe3MAOPgkcrhiLSKiPwJjJa6S5jfqksYX87vn0rya5v2X+vK6IXgQ==",
+  "dgSpecHash": "pDbd+Ix/W/IJfnuEp9XZVw3U0HgcqD0vAB09QQLt7Wgp1Qip4lkM5HMg5I2KXFwJUQFBiGY4HqPma3KHiKFpDw==",
   "success": true,
   "projectFilePath": "d:\\FPT_UNIVERSITY\\FA23\\PRN221\\Project\\ProjectCinema\\ProjectFull\\PRN211_Group3_SE1605\\CinemaProjectAPI\\CinemaProjectAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.22\\microsoft.aspnetcore.authentication.jwtbearer.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -11,6 +12,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.22\\microsoft.entityframeworkcore.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.22\\microsoft.entityframeworkcore.abstractions.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.22\\microsoft.entityframeworkcore.analyzers.6.0.22.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.22\\microsoft.entityframeworkcore.design.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.22\\microsoft.entityframeworkcore.relational.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.22\\microsoft.entityframeworkcore.sqlserver.6.0.22.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

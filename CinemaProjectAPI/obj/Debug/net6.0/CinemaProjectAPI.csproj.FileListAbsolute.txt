@@ -144,3 +144,5 @@ D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\ProjectFull\PRN211_Group3_SE
 D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\ProjectFull\PRN211_Group3_SE1605\CinemaProjectAPI\obj\Debug\net6.0\CinemaProjectAPI.pdb
 D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\ProjectFull\PRN211_Group3_SE1605\CinemaProjectAPI\obj\Debug\net6.0\CinemaProjectAPI.genruntimeconfig.cache
 D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\ProjectFull\PRN211_Group3_SE1605\CinemaProjectAPI\obj\Debug\net6.0\ref\CinemaProjectAPI.dll
+D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\ProjectFull\PRN211_Group3_SE1605\CinemaProjectAPI\bin\Debug\net6.0\Humanizer.dll
+D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\ProjectFull\PRN211_Group3_SE1605\CinemaProjectAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
