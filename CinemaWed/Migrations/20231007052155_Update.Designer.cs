@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaWed.Migrations
 {
     [DbContext(typeof(CinemaDbContext))]
-    [Migration("20231006162710_Initial")]
-    partial class Initial
+    [Migration("20231007052155_Update")]
+    partial class Update
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
