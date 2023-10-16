@@ -12,3 +12,17 @@ D:\FA23\PRN221\CinemaProjectGR3\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\FA23\PRN221\CinemaProjectGR3\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
 D:\FA23\PRN221\CinemaProjectGR3\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
 D:\FA23\PRN221\CinemaProjectGR3\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\bin\Debug\net6.0\DataAccess.dll
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.dll
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccess;
+using Microsoft.EntityFrameworkCore;
 
 namespace BusinessObject.DAO
 {
@@ -33,7 +34,7 @@ namespace BusinessObject.DAO
             try
             {
                 using var context = new CinemaDbContext();
-                theatreHalls = context.theaterHalls.ToList();
+                theatreHalls = context.theaterHalls.Include(t => t.Theater).ToList();
             }
             catch (Exception e)
             {

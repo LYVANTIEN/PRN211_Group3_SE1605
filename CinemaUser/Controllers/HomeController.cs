@@ -14,8 +14,8 @@ namespace CinemaWed.Controllers
             var movie = movieRepository.GetMovie();
             return View(movie);
         }
-
-        public ActionResult Details(int? id)
+     
+            public ActionResult Details(int? id)
         {
             if (id == null)
             {

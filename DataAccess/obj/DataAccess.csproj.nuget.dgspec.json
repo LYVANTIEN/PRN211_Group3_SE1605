@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\DataAccess.csproj": {}
+    "E:\\ProjectGR3\\PRN211_Group3_SE1605\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\DataAccess.csproj": {
+    "E:\\ProjectGR3\\PRN211_Group3_SE1605\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\ProjectGR3\\PRN211_Group3_SE1605\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\obj\\",
+        "projectPath": "E:\\ProjectGR3\\PRN211_Group3_SE1605\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\NGO VU HUY\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGR3\\PRN211_Group3_SE1605\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NGO VU HUY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,6 +64,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.23, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.4.7, )"
+            },
+            "X.PagedList.Mvc": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.7, )"
+            },
+            "X.PagedList.Web.Common": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -77,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

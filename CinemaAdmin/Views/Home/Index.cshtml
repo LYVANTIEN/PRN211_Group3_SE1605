@@ -1,4 +1,5 @@
-﻿
+﻿@using DataAccess;
+@model Account
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -12,7 +13,19 @@
         <li class="nav-item d-none d-sm-inline-block">
             <a href="/home/index" class="nav-link">Home</a>
         </li>
-        
+        @if (!User.Identity.IsAuthenticated)
+    {
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Account/Login" class="nav-link">Login</a>
+        </li>
+    }
+        @if (User.Identity.IsAuthenticated)
+    {
+        <li class="nav-item d-none d-sm-inline-block">
+                <a href="/Account/Logout" class="nav-link">LogOut</a>
+        </li>
+    }
+      
     </ul>
 }
 
@@ -53,6 +66,7 @@
             </div>
             <div class="card-body">
                 Start creating your amazing application!
+
             </div>
             <!-- /.card-body -->
             <div class="card-footer">
