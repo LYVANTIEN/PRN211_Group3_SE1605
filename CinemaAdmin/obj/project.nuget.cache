@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S8Hs/JDjoNuDsYaQ2StOMen05nOQ83LSmPcX/D79OWjI/aOWpBs4kReSnS8yuNHYgKkvFxMBH6cKxVAlEqeslQ==",
+  "dgSpecHash": "dRvScRUDLhwDFqeiNsW9iEa2WRUYvqCOJEJOtJ7BE6JEn25Of6W4azog2t4UYsR0nIRKnt2woeU0QgMELNiYOQ==",
   "success": true,
-  "projectFilePath": "D:\\FA23\\PRN221\\CinemaProjectGR3\\CinemaAdmin\\CinemaAdmin.csproj",
+  "projectFilePath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN221\\Project_PRN221\\PRN211_Group3_SE1605\\CinemaAdmin\\CinemaAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

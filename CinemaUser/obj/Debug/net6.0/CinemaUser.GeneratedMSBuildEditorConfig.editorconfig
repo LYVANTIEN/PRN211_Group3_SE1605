@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CinemaUser
 build_property.RootNamespace = CinemaUser
-build_property.ProjectDir = D:\FA23\PRN221\CinemaProjectGR3\CinemaUser\
+build_property.ProjectDir = D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\CinemaUser\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\FA23\PRN221\CinemaProjectGR3\CinemaUser
+build_property.MSBuildProjectDirectory = D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\CinemaUser
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/Account/Login.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/Account/Register.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/Home/Details.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/Home/Index.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/Shared/Error.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/_ViewImports.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/_ViewStart.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FA23/PRN221/CinemaProjectGR3/CinemaUser/Views/Shared/_Layout.cshtml]
+[D:/FPT_CanTho_All/FA23_FPT/PRN221/Project_PRN221/PRN211_Group3_SE1605/CinemaUser/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pikd6d008y

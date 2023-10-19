@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dE2yYN6b/1QBcqnnt+lXaAEUCErVJw1bPFBIsYBRYQ9YUc4l27XVmBsJbzKdLtSpnEQUIJiNprDtp/82a+vybA==",
+  "dgSpecHash": "3hApwT1udWdT4aH4L5rDcY59pAEAxvcEN0JxCfUYAEDyT7Z3/vFWV0xtPS2AeN/siS1fa8miSDZg1W6rwFDzrw==",
   "success": true,
-  "projectFilePath": "D:\\FA23\\PRN221\\CinemaProjectGR3\\BusinessObject\\BusinessObject.csproj",
+  "projectFilePath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN221\\Project_PRN221\\PRN211_Group3_SE1605\\BusinessObject\\BusinessObject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

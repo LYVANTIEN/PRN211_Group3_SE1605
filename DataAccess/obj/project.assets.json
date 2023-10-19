@@ -2063,11 +2063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN221\\Project_PRN221\\PRN211_Group3_SE1605\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN221\\Project_PRN221\\PRN211_Group3_SE1605\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\FA23\\PRN221\\CinemaProjectGR3\\DataAccess\\obj\\",
+      "outputPath": "D:\\FPT_CanTho_All\\FA23_FPT\\PRN221\\Project_PRN221\\PRN211_Group3_SE1605\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2133,7 +2133,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
