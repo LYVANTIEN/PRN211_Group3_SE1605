@@ -15,6 +15,7 @@ D:\FA23\PRN221\CinemaProjectGR3\BusinessObject\obj\Debug\net6.0\refint\BusinessO
 D:\FA23\PRN221\CinemaProjectGR3\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
 D:\FA23\PRN221\CinemaProjectGR3\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
 D:\FA23\PRN221\CinemaProjectGR3\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
+<<<<<<< HEAD
 D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
 D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
 D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
@@ -32,3 +33,22 @@ D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\BusinessOb
 D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
 D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
 D:\FPT_CanTho_All\FA23_FPT\PRN221\Project_PRN221\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
+=======
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\DataAccess.dll
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\bin\Debug\net6.0\DataAccess.pdb
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CopyComplete
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
+E:\ProjectGR3\PRN211_Group3_SE1605\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
+>>>>>>> origin/huydev

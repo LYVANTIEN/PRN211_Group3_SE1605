@@ -69,7 +69,7 @@ namespace BusinessObject.DAO
                 if (_acc == null)
                 {
                     using var context = new CinemaDbContext();
-                    acc.Password = BCrypt.Net.BCrypt.HashPassword(acc.Password);
+                  //  acc.Password = BCrypt.Net.BCrypt.HashPassword(acc.Password);
                     context.Accounts.Add(acc);
                     context.SaveChanges();
                 }

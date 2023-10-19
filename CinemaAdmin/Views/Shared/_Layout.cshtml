@@ -76,7 +76,7 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="~/Content/clients/index3.html" class="brand-link">
+            <a href="/Home" class="brand-link">
                 <span class="brand-text font-weight-light">ADMIN</span>
             </a>
 
@@ -86,7 +86,21 @@
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         
         <div class="info">
-            <a href="#" class="d-block">Minh Ho</a>
+            <a href="#" class="d-block">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item d-none d-sm-inline-block">
+                                    <a href="#" class="nav-link">Hello Admin</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item d-none d-sm-inline-block">
+                                    <a href="#" class="nav-link">Chưa đăng nhập</a>
+                                </li>
+                            }
+
+            </a>
         </div>
     </div>
 
@@ -95,7 +109,7 @@
         <div class="input-group" data-widget="sidebar-search">
             <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
             <div class="input-group-append">
-                <button class="btn btn-sidebar">
+                <button class="btn btn-sidebar" style="margin-top:unset;">
                     <i class="fas fa-search fa-fw"></i>
                 </button>
             </div>
@@ -167,25 +181,38 @@
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
-                        Product Management
+                         Management
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/admin/product" class="nav-link">
+                                    <a href="/Admin" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Product</p>
+                            <p>Manager Account</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/admin/productcategory" class="nav-link">
+                        <a href="/Movie" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Products Category</p>
+                            <p>Manager Movie</p>
                         </a>
                     </li>
+                                <li class="nav-item">
+                                    <a href="/MovieShow" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Manager MovieShow</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/TheaterHall" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Manager TheaterHall</p>
+                                    </a>
+                                </li>
                 </ul>
             </li>
+                        
             <li class="nav-item">
                 <a href="../widgets.html" class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
@@ -205,7 +232,7 @@
         </aside>
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+        <div class="content-wrapper" style="margin-left:unset;">
             @RenderBody()
             <!-- /.content-wrapper -->
 

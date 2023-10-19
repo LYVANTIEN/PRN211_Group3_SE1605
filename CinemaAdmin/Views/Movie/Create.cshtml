@@ -1,0 +1,127 @@
+﻿@model DataAccess.Movie
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section naviheader{
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Home/Index" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/movie" class="nav-link">Movie Management</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="#" class="nav-link">Add new</a>
+        </li>
+    </ul>
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Add new movie</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="/movie/index">Home</a></li>
+                        <li class="breadcrumb-item active">Add new movie</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        @using (Html.BeginForm("Create", "Movie", FormMethod.Post, new { }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <!-- your steps content here -->
+                            <div class="card">
+
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="active tab-pane" id="activity">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Movie Name</label>
+                                                @Html.TextBoxFor(x => x.MovieName, new { @class = "form-control", @placeholder = "Name of movie" })
+                                                @Html.ValidationMessageFor(x => x.MovieName, null, new { @class = "text-danger" })
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Description</label>
+                                                @Html.TextBoxFor(x => x.Description, new { @class = "form-control", @placeholder = "Description" })
+                                                @Html.ValidationMessageFor(x => x.Description, null, new { @class = "text-danger" })
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Genres</label>
+                                                @Html.TextBoxFor(x => x.Genres, new { @class = "form-control", @placeholder = "Genres" })
+                                                @Html.ValidationMessageFor(x => x.Genres, null, new { @class = "text-danger" })
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Price</label>
+                                                @Html.TextBoxFor(x => x.Price, new { @class = "form-control", @placeholder = "Price" })
+                                                @Html.ValidationMessageFor(x => x.Price, null, new { @class = "text-danger" })
+                                            </div>
+                                           
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Image</label>
+                                                @Html.TextAreaFor(x => x.Image, new { @class = "form-control"})
+                                                @Html.ValidationMessageFor(x => x.Image, null, new { @class = "text-danger" })
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Rate</label>
+                                                @Html.TextAreaFor(x => x.Rate, new { @class = "form-control", @placeholder = "Rate" })
+                                                @Html.ValidationMessageFor(x => x.Rate, null, new { @class = "text-danger" })
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Upcoming</label>
+                                                @Html.TextAreaFor(x => x.Upcoming, new { @class = "form-control", @placeholder = "Upcoming" })
+                                                @Html.ValidationMessageFor(x => x.Upcoming, null, new { @class = "text-danger" })
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.tab-content -->
+
+                            </div>
+
+                            <!-- /.card-body -->
+                            <div class="text-center" style="margin-bottom:10px">
+                                <button type="submit" class="btn btn-success">Add new</button>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer">
+            </div>
+            <!-- /.card-footer-->
+        </div>
+        <!-- /.card -->
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
