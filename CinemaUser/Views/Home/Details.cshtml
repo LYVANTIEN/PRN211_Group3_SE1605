@@ -1,0 +1,125 @@
+﻿@model DataAccess.Movie
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/Style.css">
+<main>
+
+    <div class="block-wrapper">
+        <div class="container">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/home/index">Trang chủ</a></li>
+                    <li class="breadcrumb-item"><a href="">Đặt vé</a></li>
+                    <li class="breadcrumb-item"><a href="">@Model.MovieName</a></li>
+                </ol>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <section class="detail-feature">
+                        <article>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-md-offset-0">
+                                    <div style="width: 100%;height: 100%;" class="detail-feat-img ">
+                                        <img style="width: 100%;height: 100%;" src="@Model.Image" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="details col-md-8 col-sm-8 col-xs-12">
+                                    <h2 class="detail-title upper-text">
+                                        @Model.MovieName
+                                    </h2>
+                                    <h2 class="detail-title vn upper-text">
+                                        Kẻ Kiến Tạo
+                                    </h2>
+                                    <div class="detail-rating">
+                                        <div class="rating-wrap detail ng-scope">
+                                            <div class="rating-movie detail">
+                                                <div class="rating-value detail">
+                                                    <strong class="ng-binding">
+                                                        7.6
+                                                    </strong>
+                                                    <span>/10</span>
+                                                    <div class="rating-view">
+                                                        <span class="ng-binding">
+                                                            105
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="detail-rating">
+                                        <span><span class="age-rating">T13</span></span>
+                                        <span>
+                                            <i class="icon-time-left">
+                                                &nbsp;
+                                            </i>
+                                            133 phút
+                                        </span>
+                                    </div>
+
+                                    <div class="detail-info">
+                                        <div>
+                                            <div class="row">
+                                                Thể loại:@Model.Genres <br>
+                                            </div>
+                                            <div class="row">
+                                                @Model.Description
+                                            </div>
+                                            @*<div class="row">
+                                            Đạo diễn:  Gareth Edwards Diễn viên:  Gemma Chan, Watanabe Ken, John David Washington <br>
+                                            </div>
+                                            <div class="row">
+                                            Nhà sản xuất:  20th Century Studios <br>
+                                            </div>
+                                            <div class="row">
+                                            Quốc gia:  Mỹ <br>
+                                            </div>
+                                            <div class="row">
+                                            Ngày khởi chiếu:  29/9/2023
+                                            </div>*@
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row detail-description">
+                                    <div class="col-md-12 col sm-12 col-xs-12">
+                                        <div class="content-text">
+                                            <section class="info">
+                                                <h3>Nội dung phim</h3>
+                                            </section>
+                                            <div class="content-text-actors-info content-text">
+                                                <br>
+                                                <div>
+                                                    @Model.Description
+                                                    @* Trong tương lai, thế giới xảy ra một cuộc chiến tranh kéo dài giữa loài người và trí tuệ nhân tạo (AI). Joshua (John David Washington) - 1 cựu đặc vụ lì lợm, được thuê để giết “The Creator” - kẻ được xem là đầu não của AI và đã tạo ra 1 loại vũ khí bí ẩn đủ mạnh để kết thúc cuộc chiến và quét sạch nhân loại.  Joshua lần theo mọi dấu vết và biết được rằng thứ vũ khí hủy diệt bí ẩn đó lại chỉ là một AI trong hình hài một đứa bé. Xem thêm tại: https://www.galaxycine.vn/dat-ve/the-creator
+
+                                                    Xem thêm tại: https://www.galaxycine.vn/dat-ve/the-creator*@
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

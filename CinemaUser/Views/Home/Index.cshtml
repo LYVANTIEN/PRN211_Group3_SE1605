@@ -1,0 +1,566 @@
+﻿@model IEnumerable<DataAccess.Movie>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" type="text/css" href="~/css/Style.css">
+<link rel="stylesheet" type="text/css" href="~/css/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="~/css/owl.theme.default.min.css">
+
+
+
+<main>
+    @*<div class="owl-carousel owl-theme">
+    <div class="item">
+    <img src="https://cdn.galaxycine.vn/media/2023/9/4/the-nun-2-4_1693796380775.jpg" alt="">
+    </div>
+    <div class="item">
+    <img src="https://cdn.galaxycine.vn/media/2023/9/8/nta-t9-digital-2048x682_1694162460479.jpg" alt="">
+    </div>
+    <div class="item">
+    <img src="https://cdn.galaxycine.vn/media/2023/8/31/combo299k-transdd-digital-2048x682_1693497430601.jpg"
+    alt="">
+    </div>
+    <div class="item">
+    <img src="https://cdn.galaxycine.vn/media/2023/8/22/zalopay-1_1692686936988.jpg" alt="">
+    </div>
+    </div>*@
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tab-movies">
+                   
+
+                    <ul class="nav nav-tabs movie-home">
+                        <li id="dangchieu" class="active">
+                            <a href="#tab_default_1" data-toggle="tab"
+                               aria-expanded="true">
+                                Phim đang chiếu
+                            </a>
+                        </li>
+                        <li id="sapchieu" class="">
+                            <a href="#tab_default_2" data-toggle="tab"
+                               aria-expanded="false">
+                                Phim sắp chiếu
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content mg-t-35">
+                        <div class="dang-chieu">
+                            <div class="row">
+                        @foreach (var item in Model)
+                        {
+                           
+                                       
+                                    @*@if(item.Upcoming.Equals("false"))
+                                    {*@
+                                        <div class="col-md-4 movie-item">
+                                        <a href="/home/details/@(item.MovieId)">
+                                            <img src="@item.Image" alt=""
+                                                 class="movie-img">
+                                            
+                                        </a>
+                                           
+                                            <div class="title-movie">
+                                                <a href="/home/details/@(item.MovieId)">@item.MovieName</a>
+                                                @*<h4 class="vn upper-text color-a0a3a7">Ác Quỷ Ma Sơ II</h4>*@
+                                            </div>
+                                        </div>
+                                   @* }*@
+                                    <div class="sap-chieu d-none">
+                                        <div class="row">
+                                    @*else if(item.Upcoming.Equals("false"))
+                                    {*@
+                                       
+                                              @*  <div class="col-md-4 movie-item">
+                                                    <img src="@item.Image" alt=""
+                                                         class="movie-img">
+                                                    <div class="title-movie">
+                                                        <a href="/home/details/@(item.MovieId)">@item.MovieName</a>
+                                                    </div>
+                                                </div>*@
+                                                
+                                        
+                                    @*}*@
+                                        </div>
+                                    </div>
+                        }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 pull-right">
+                <a href="#" class="btn secondary fl-right">
+                    Xem thêm
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <section id="comment-blog">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <a href="#" class="title-block">
+                        <h3>Bình luận phim</h3>
+                    </a>
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <a href="#" class="title-block">
+                        <h3>Blog điện ảnh</h3>
+                    </a>
+
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="movie-thumb">
+                            <a href="#" class="has-overlay">
+                                <img src="https://cdn.galaxycine.vn/media/2023/9/10/450_1694285055248.jpg"
+                                     class="lazy loaded" alt="">
+                            </a>
+                        </div>
+
+                        <h5>
+                            <a href="#">[Review] The Nun 2: Valak Đã "Ngủ Yên"?</a>
+                        </h5>
+                        <ul class="article-blog-like ng-scope">
+                            <li style="margin-right: 10px;">
+                                <span>
+                                    <div class="view-wrap">
+                                        <i class="icon-view"></i>
+                                        <span class="ng-binding">948</span>
+                                    </div>
+                                </span>
+                            </li>
+                            <li>
+                                <div class="rating-movie rating-home">
+                                    <span class="rating-value">
+                                        <strong class="review-home ng-binding">
+                                            8.7
+                                        </strong>
+                                        <span>/10</span>
+                                        <span class="ng-binding">&nbsp;(215)</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="blog-content hidden-xs">
+                            <p>
+                                <span style="font-size:14px;">
+                                    <span style="font-family:Arial,Helvetica,sans-serif;">
+                                        <b>
+                                            <i>
+                                                <span style="line-height:107%">The Nun 2</span>
+                                            </i>
+                                        </b>
+                                    </span><span style="line-height:107%">
+                                        <span style="font-family:&quot;Calibri&quot;,sans-serif">
+                                            <span style="font-family:Arial,Helvetica,sans-serif;">
+                                                có thể xem là bản
+                                                nâng cấp hoàn hảo từ phần đầu tiên. U ám hơn, đáng sợ hơn, quỷ quyệt
+                                                hơn.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span><!--| -->
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</main>
