@@ -1,0 +1,121 @@
+﻿@model IEnumerable<DataAccess.Seat>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common;
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section naviheader{
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/home/index" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/seat/index" class="nav-link">Seat management</a>
+        </li>
+    </ul>
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Seat management</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="/home/index">Home</a></li>
+                        <li class="breadcrumb-item active">Seat management</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Seatw management</h3>
+
+                <div class="card-tools">
+                    <a href="/seat/create" class="btn btn-primary">Add new</a>
+                </div>
+            </div>
+            <div class="card-body">
+                
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="text-center">SeatId</th>
+                            <th class="text-center">SeatNumber</th>
+                            <th class="text-center">Status</th>
+                            <th class="text-center">TheaterHall</th>
+                            <th class="text-center">Action</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            var i = ((ViewBag.Page - 1) * ViewBag.PageSize) + 1;
+                            foreach (var item in Model)
+                            {
+                                @*var strCheck = item.IsActive ? "<a href='#'><i class='fa fa-check text-success'></i></a>" : "<a href='#'><i class='fas fa-times text-danger '></i></a>";*@
+                                <tr>
+                                    <td class="text-center">@item.SeatId</td>
+                                    <td class="text-center">@item.SeatNumber</td>
+                                    <td class="text-center">@item.Status</td>
+                                    <td class="text-center">@item.TheaterHall.TheaterHallName</td>
+                                    @*<td class="text-center">
+                            @Html.Raw(strCheck)
+                            </td>*@
+                                    <td class="text-center">
+                                        <a href="/seat/edit/@item.SeatId" class="btn btn-sm btn-primary">Edit</a>
+                                        <a href="/seat/delete/@item.SeatId" onclick="confirm('Do you want to delete?')" class="btn btn-sm btn-danger">Delete</a>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                @* i++;*@
+                            }
+
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="4">No record!!</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6" style="text-align:right">
+                        @Html.PagedListPager((IPagedList) Model,
+                        page => Url.Action("index", new { page = page }),
+                        PagedListRenderOptions.MinimalWithPageCountText)
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer">
+            </div>
+            <!-- /.card-footer-->
+        </div>
+        <!-- /.card -->
+
+    </section>
+    <!-- /.content -->
+</div>

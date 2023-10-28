@@ -3,10 +3,10 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<link rel="stylesheet" type="text/css" href="~/css/Style.css">
+
 <link rel="stylesheet" type="text/css" href="~/css/owl.carousel.min.css">
 <link rel="stylesheet" type="text/css" href="~/css/owl.theme.default.min.css">
-
+<link rel="stylesheet" type="text/css" href="~/css/Style.css">
 
 
 <main>
@@ -52,20 +52,16 @@
                             <div class="row">
                         @foreach (var item in Model)
                         {
-                           
-                                       
                                     @*@if(item.Upcoming.Equals("false"))
                                     {*@
                                         <div class="col-md-4 movie-item">
+                              
                                         <a href="/home/details/@(item.MovieId)">
                                             <img src="@item.Image" alt=""
                                                  class="movie-img">
-                                            
                                         </a>
-                                           
-                                            <div class="title-movie">
-                                                <a href="/home/details/@(item.MovieId)">@item.MovieName</a>
-                                                @*<h4 class="vn upper-text color-a0a3a7">Ác Quỷ Ma Sơ II</h4>*@
+                                        <div class="title-movie" style="margin-top: 6px;">
+                                            <a style="font-size: 16px;color: #333333;" href="/home/details/@(item.MovieId)">@item.MovieName</a>
                                             </div>
                                         </div>
                                    @* }*@

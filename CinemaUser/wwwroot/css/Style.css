@@ -773,6 +773,7 @@ a {
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
     transition-duration: 200ms;
-    color: #a0a3a7;
+    font-size: 16px;
+    color: #333333;
     cursor: pointer;
 }
