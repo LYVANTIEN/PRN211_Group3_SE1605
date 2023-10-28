@@ -9,109 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CinemaAdmin
 build_property.RootNamespace = CinemaAdmin
-build_property.ProjectDir = E:\ProjectGR3\PRN211_Group3_SE1605\CinemaAdmin\
+build_property.ProjectDir = D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\PRN211_Group3_SE1605\CinemaAdmin\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\ProjectGR3\PRN211_Group3_SE1605\CinemaAdmin
+build_property.MSBuildProjectDirectory = D:\FPT_UNIVERSITY\FA23\PRN221\Project\ProjectCinema\PRN211_Group3_SE1605\CinemaAdmin
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Create.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Delete.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Details.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Index.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Login.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Update.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Account/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Create.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Delete.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Index.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Update.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Admin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Home/Index.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/MovieShow/Create.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/MovieShow/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVTaG93XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/MovieShow/Edit.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/MovieShow/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVTaG93XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/MovieShow/Index.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/MovieShow/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVTaG93XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Movie/Create.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Movie/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Movie/Edit.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Movie/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Movie/Index.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Movie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Shared/Error.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/TheaterHall/Create.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/TheaterHall/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlckhhbGxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/TheaterHall/Edit.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/TheaterHall/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlckhhbGxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/TheaterHall/Index.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/TheaterHall/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlckhhbGxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/_ViewImports.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Theater/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Theater/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Theater/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlYXRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/_ViewStart.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/ProjectGR3/PRN211_Group3_SE1605/CinemaAdmin/Views/Shared/_Layout.cshtml]
+[D:/FPT_UNIVERSITY/FA23/PRN221/Project/ProjectCinema/PRN211_Group3_SE1605/CinemaAdmin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n6hgs0x5yv

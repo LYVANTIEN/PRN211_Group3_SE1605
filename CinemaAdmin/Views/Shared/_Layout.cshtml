@@ -87,8 +87,8 @@
         
         <div class="info">
             <a href="#" class="d-block">
-                            @if (User.Identity.IsAuthenticated)
-                            {
+                                @if (User.Identity.IsAuthenticated)
+                                {
                                 <li class="nav-item d-none d-sm-inline-block">
                                     <a href="#" class="nav-link">Hello Admin</a>
                                 </li>
@@ -208,6 +208,12 @@
                                     <a href="/TheaterHall" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Manager TheaterHall</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/Theater" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Manager Theater</p>
                                     </a>
                                 </li>
                 </ul>
